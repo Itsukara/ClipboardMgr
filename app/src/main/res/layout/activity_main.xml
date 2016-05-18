@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.taka.clipboardmgr.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste01" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste01"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy01" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy01"
+            android:padding="0dp"
+            android:textSize="12sp"
+            android:id="@+id/editText01" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste02" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste02"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy02" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy02"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText02" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste03" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste03"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy03" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy03"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText03" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste04" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste04"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy04" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy04"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText04" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste05" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste05"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy05" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy05"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText05" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste06" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste06"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy06" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy06"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText06" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste07" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste07"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy07" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy07"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText07" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste08" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste08"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy08" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy08"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText08" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste09" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste09"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy09" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy09"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText09" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste10" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste10"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy10" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy10"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste11" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste11"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy11" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy11"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText11" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste12" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste12"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy12" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy12"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText12" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste13" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste13"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy13" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy13"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText13" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste14" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste14"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy14" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy14"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText14" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="0dp"
+            android:text="P"
+            android:textSize="12sp"
+            android:id="@+id/buttonPaste15" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/buttonPaste15"
+            android:padding="0dp"
+            android:text="C"
+            android:textSize="12sp"
+            android:id="@+id/buttonCopy15" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/buttonCopy15"
+            android:padding="0dp"
+            android:text=""
+            android:textSize="12sp"
+            android:id="@+id/editText15" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Clipboard"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="5dp"
+            android:layout_toEndOf="@id/textView"
+            android:padding="0dp"
+            android:text="asdfd"
+            android:textSize="12sp"
+            android:id="@+id/editTextClipboard" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
